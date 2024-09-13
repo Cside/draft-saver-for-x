@@ -3,6 +3,7 @@ window.addEventListener("beforeunload", (event) => {
     '[data-testid^="tweetTextarea"]'
   );
   if (
+    tweetTextarea &&
     tweetTextarea.querySelectorAll('[id^="placeholder"]').length === 0 &&
     tweetTextarea.textContent !== ""
   )
