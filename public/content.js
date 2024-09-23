@@ -1,8 +1,11 @@
 window.addEventListener("beforeunload", (event) => {
-  const container = document.querySelector('[data-testid^="tweetTextarea"]');
+  const tweetTextarea = document.querySelector(
+    '[data-testid^="tweetTextarea"]'
+  );
   if (
-    container.querySelectorAll('[id^="placeholder"]').length === 0 &&
-    container.textContent !== ""
+    tweetTextarea &&
+    tweetTextarea.querySelectorAll('[id^="placeholder"]').length === 0 &&
+    tweetTextarea.textContent !== ""
   )
     event.preventDefault();
 });
