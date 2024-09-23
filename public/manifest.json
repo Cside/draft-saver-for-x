@@ -1,7 +1,7 @@
 {
   "version": "0.0.1",
   "manifest_version": 3,
-  "name": "Draft Saver for X(Twitter)",
+  "name": "__MSG_extensionName__",
   "description": "__MSG_extDescription__",
   "default_locale": "en",
   "content_scripts": [

@@ -1,4 +1,7 @@
 {
+  "extensionName": {
+    "message": "X(Twitter) Draft Saver"
+  },
   "extDescription": {
     "message": "Displays an alert dialog when you try to move a page in X(Twitter) while your post is still in progress"
   }

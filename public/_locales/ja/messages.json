@@ -1,4 +1,7 @@
 {
+  "extensionName": {
+    "message": "X（Twitter）の書きかけの投稿を保護する"
+  },
   "extDescription": {
     "message": "X（旧Twitter）で、投稿を書きかけのままページを移動しようとした場合、警告を表示します"
   }
